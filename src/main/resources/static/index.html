@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FindYourWay</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    
+    	<script type="text/javascript" src="app.js"></script>   
+     
+  </head>
+  <body>
+        <div id="container" class="container">
+            <div class="d-flex flex-column">
+            <form class="p-2">
+                    <div class="form-row align-items-center">
+                        <div class="col-auto">
+                            <label for="depart">Depart :</label>
+                        </div>
+                        <div class="col-auto">
+                            <input type="text" class="form-control" id="depart" aria-describedby="emailHelp" placeholder="">
+                        </div>
+                        <div class="col-auto">
+                            <label for="destination">Destination :</label>
+                        </div>
+                        <div class="col-auto">
+                            <input type="text" class="form-control" id="destination" placeholder="">
+                        </div>
+                        <div class="col-auto">
+                            <button type="button" id="btnSubmit" class="btn btn-primary">Chercher</button>
+                        </div>
+                    </div>
+            </form>
+            </div>
+            <div id="results-container" class="p-2">
+                
+            </div>
+        </div>        
+  </body>
+</html>

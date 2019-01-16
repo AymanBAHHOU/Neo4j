@@ -22,8 +22,8 @@ public class StopService {
 		return stopRepository.findAll();
 	}
 
-	public Node[] getItineraries() {
-		return stopRepository.getAllStops();
+	public Node[] getItineraries(String depart, String destination) {
+		return stopRepository.getAllStops(depart, destination);
 	}
 	
 	public Distance getDistance() {

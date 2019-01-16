@@ -1,0 +1,27 @@
+html,
+body{
+ height: 100%;
+}
+
+#cover {
+  /*background: #222 url('') center center no-repeat;*/
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+img{
+	height:8%;
+	width:8%;
+	margin-bottom:16px;
+}
+
+#cover-caption {
+  width: 100%;
+}
+
+.p-2{
+	text-align:center;
+}
